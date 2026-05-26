@@ -89,7 +89,7 @@ The script will:
 * **Business area (Sheet 2)** — visit-level field `dimension1` (custom
   dimension configured in Matomo).
 * **Tool (Sheet 3)** — first path segment after `/tools/` in the action
-  URL (e.g. `https://ssmcockpit.escb.eu/tools/athena/...` → `athena`).
+  URL (e.g. `https://xxxx.com/tools/athena/...` → `tool`).
   Only entries with `actionDetails[].type == "action"` are counted, so
   content impressions / interactions are excluded.
 
